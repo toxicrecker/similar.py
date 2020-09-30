@@ -29,8 +29,8 @@ or generator object
 import similar
 
 def genwords():
-	for word in ["picke", "apple", "orange"]:
-		yield word
+    for word in ["picke", "apple", "orange"]:
+        yield word
 		
 match = similar.best_match("apply", genwords())
 print(match)
